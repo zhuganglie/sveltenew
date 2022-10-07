@@ -26,7 +26,7 @@
 	
 	
         <div use:clickOutside={clickOutsideHandler} type="button" class="md:hidden" class:open on:click={toggleHeader}>
-           <div class:open={open} class="i-mdi-menu text-3xl font-bold" />
+           <div class:open={open} class="i-mdi-menu text-3xl text-teal-900 font-bold" />
 		</div>
     
 	</nav>
@@ -36,6 +36,6 @@
 	@apply bg-zinc-200 font-bold;
 }
 .open {
-	@apply i-mdi-close text-3xl;
+	@apply i-mdi-close text-3xl text-teal-900;
 }
 </style>
