@@ -15,7 +15,7 @@
   <h1 class="text-3xl">Tags</h1>
   <hr />
   
-  <ul>
+  <ul class="mt-8">
     {#each data.uniqueTags as tag}
     <li>
       <a href="/tags/{tag.title}">

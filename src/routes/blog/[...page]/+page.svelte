@@ -14,7 +14,7 @@
   <div class="">
     <h1>Posts</h1>
 <hr />
-    <div class="flex-grow space-y-4">
+    <div class="flex-grow space-y-4 mt-8">
       {#each data.posts as post}
       {#if !post.draft}
         <div class="py-8 px-4 first:pt-0 border-1">

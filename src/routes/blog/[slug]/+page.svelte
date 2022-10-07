@@ -31,7 +31,7 @@
     </div>
   <hr />
 
-    <div class="relative">
+    <div class="mt-8">
       <!-- render the post -->
       <svelte:component this={data.component} />
   </div>

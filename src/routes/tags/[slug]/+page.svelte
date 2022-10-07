@@ -13,7 +13,7 @@
 <hr />
 
 {#if data.posts.length }
-  <ul class="">
+  <ul class="mt-8">
     {#each data.posts as post}
     {#if !post.draft}
       <li>
