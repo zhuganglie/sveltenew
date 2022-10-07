@@ -1,0 +1,30 @@
+<script>
+// @ts-nocheck
+
+    /**
+	 * @type {{ posts: any; }}
+	 */
+     export let data
+    //console.log(data.posts)
+</script>
+
+<div>
+<h1>Posts with Tag: {data.params} </h1>
+<hr />
+
+{#if data.posts.length }
+  <ul class="">
+    {#each data.posts as post}
+    {#if !post.draft}
+      <li>
+          <a href="/blog/{post.slug}">
+            {post.title}
+          </a>
+      </li>
+      {/if}
+    {/each}
+  </ul>
+{:else}
+<p><strong>Ope!</strong> Sorry, couldn't find any note under the tag "{data.params}".</p>
+{/if}
+</div>
