@@ -4,5 +4,5 @@
 
 <footer class="w-full text-center flex flex-col items-center justify-center space-y-1 mb-6">
 	<Social />
-	<p>&copy; {new Date().getFullYear()} zhuganglie &reg;</p>
+	<p>&copy; {new Date().getFullYear()} YZC &reg;</p>
 </footer>

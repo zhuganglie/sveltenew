@@ -11,6 +11,7 @@
 	<div>
 		<img src="/images/casual.webp" alt="Welcome" class="w-full h-auto"/>
 	</div>
+	
 				
 </section>
 

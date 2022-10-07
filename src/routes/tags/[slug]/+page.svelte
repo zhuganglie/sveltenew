@@ -24,6 +24,7 @@
       {/if}
     {/each}
   </ul>
+  <a href="/tags" class="mt-8 px-2 py-1 rounded bg-zinc-100">All Tags</a>
 {:else}
 <p><strong>Ope!</strong> Sorry, couldn't find any note under the tag "{data.params}".</p>
 {/if}

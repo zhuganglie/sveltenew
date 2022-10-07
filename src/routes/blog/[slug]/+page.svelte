@@ -38,9 +38,9 @@
   
 </article>
   
-  <div class="mt-12 px-2 py-1 rounded flex justify-between bg-teal-900  max-w-max">
-    <a href={`/blog`} class="text-teal-50 hover:text-teal-100">
-      Back to Blog  
+  <div class="mt-8 px-2 py-1 rounded flex justify-between bg-zinc-100  max-w-max">
+    <a href={`/blog`} class="">
+      All Posts 
     </a>
   </div>
   
