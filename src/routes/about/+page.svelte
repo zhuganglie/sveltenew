@@ -15,9 +15,9 @@
 Here is some info about me.
 	 <Splide  options={ {
 		rewind: true,
-		width : 800,
-		gap   : '1rem',
-		height: '12em',
+		width : 1000,
+		gap   : '2rem',
+		height: '14em',
 	  } } class="w-full md:w-2/3 mx-auto px-12 py-6">
 		<SplideSlide class="grid place-items-center place-content-center">
 		  <div class="grid place-items-center place-content-center">
