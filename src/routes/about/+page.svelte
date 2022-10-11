@@ -21,13 +21,13 @@ Here is some info about me.
 	  } } class="w-full md:w-2/3 mx-auto px-12 py-6">
 		<SplideSlide class="grid place-items-center place-content-center">
 		  <div class="grid place-items-center place-content-center">
-			<span class=" font-bold mb-6">How I deal with life issues?</span>
-			<img src="/images/phil.jpeg" alt="phil" class="w-3/4 h-auto"/>
+			<span class=" font-bold mb-6">My Philosophy</span>
+			<img src="/images/phil.jpeg" alt="phil" class="w-full object-contain h-auto"/>
 		  </div>
 		</SplideSlide>
 		<SplideSlide class="grid place-items-center place-content-center">
 		  <div class="grid place-items-center place-content-center">
-			<span class=" font-bold mb-6">What I like to do?</span>
+			<span class=" font-bold mb-6">My Hobbies</span>
 			<ul>
 				<li>Cooking</li>
 				<li>Reading</li>
@@ -38,8 +38,8 @@ Here is some info about me.
 		</SplideSlide>
 		<SplideSlide class="grid place-items-center place-content-center">
 			<div class="grid place-items-center place-content-center">
-			<span class=" font-bold mb-6">What I like to eat?</span>
-			<img src="/images/crab.jpeg" alt="crab" class="w-2/3 h-auto" />
+			<span class=" font-bold mb-6">My Favorite Food</span>
+			<img src="/images/crab.jpeg" alt="crab" class="w-full md:w-3/4 object-contain h-auto" />
 			</div>
 		  </SplideSlide>
 	  </Splide>
