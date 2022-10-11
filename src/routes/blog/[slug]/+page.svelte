@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 	import { formatDate } from '$lib/date';
     /** @type {import('./$types').PageData} */
     export let data
@@ -43,6 +45,19 @@
       All Posts 
     </a>
   </div>
+<hr />
+  <div class="mt-6">
+    <span class="font-bold">Comments</span>
+    <script src="https://utteranc.es/client.js"
+          repo="zhuganglie/sveltenew"
+          issue-term="pathname"
+          label="Comment"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  </div>
+
   
 
   
