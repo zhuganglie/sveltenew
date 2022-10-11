@@ -4,6 +4,7 @@ import { extractorSvelte } from '@unocss/core';
 import presetIcons from '@unocss/preset-icons';
 import presetUno from '@unocss/preset-uno';
 import transformerDirective from '@unocss/transformer-directives';
+import presetWebFonts from '@unocss/preset-web-fonts';
 
 /** @type {import('vite').UserConfig} */
 const config = {
@@ -19,6 +20,12 @@ const config = {
 			presets:[
 				presetUno(),
 				presetIcons(),
+				presetWebFonts({
+					provider: 'google',
+					fonts: {
+						sans: 'Ubuntu',
+					}
+				})
 			],
 			transformers: [
 				transformerDirective(),
