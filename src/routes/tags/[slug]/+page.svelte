@@ -29,3 +29,9 @@
 <p><strong>Ope!</strong> Sorry, couldn't find any note under the tag "{data.params}".</p>
 {/if}
 </div>
+
+<style>
+  li {
+    @apply mb-4;
+  }
+</style>
