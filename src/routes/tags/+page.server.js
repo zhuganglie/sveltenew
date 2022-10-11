@@ -1,5 +1,6 @@
 import { posts } from "$lib/data/posts"
 
+export const prerender = true;
 export const load = async ({}) => {
 let uniqueTags = {}
 posts.forEach(post => {

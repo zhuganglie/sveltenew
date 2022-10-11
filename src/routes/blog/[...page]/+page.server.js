@@ -2,6 +2,7 @@ import { redirect } from '@sveltejs/kit'
 import { posts } from '$lib/data/posts'
 import { paginate } from '$lib/util'
 
+export const prerender = true;
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
   let page = 1

@@ -1,6 +1,7 @@
 
 import { posts } from '$lib/data/posts'
 
+export const prerender = true;
 // @ts-ignore
 export async function load({ params }) {
     const { slug } = params
