@@ -1,6 +1,6 @@
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
-//import slugPlugin from 'rehype-slug';
-//import autolinkHeadingsPlugin from 'rehype-autolink-headings';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
 
 const config = defineConfig({
 	extensions: ['.svelte.md', '.md', '.svx'],
@@ -9,7 +9,7 @@ const config = defineConfig({
 		dashes: 'oldschool'
 	},
 
-	remarkPlugins: [],
+	remarkPlugins: [remarkRehype, remarkGfm],
 	rehypePlugins: []
 });
 

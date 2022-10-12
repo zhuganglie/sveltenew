@@ -25,7 +25,7 @@
 		</div>
 	
 	
-        <div use:clickOutside={clickOutsideHandler} type="button" class="md:hidden" class:open on:click={toggleHeader}>
+        <div use:clickOutside={clickOutsideHandler} type="button" class="md:hidden" class:open on:click={toggleHeader} on:keypress>
            <div class:open={open} class="i-mdi-menu text-3xl text-teal-900 font-bold" />
 		</div>
     
