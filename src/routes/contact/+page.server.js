@@ -9,7 +9,7 @@ export const actions = {
        const message = form.get('message');
        // do whatever you want to do with email and password
   
-async function main(){  
+
 let transporter = nodemailer.createTransport({
     service:"Gmail",
     host:"smtp.gmail.com",
@@ -20,7 +20,7 @@ let transporter = nodemailer.createTransport({
         pass: 'uznqowwgxxmtpwqe',
             },
         })
-let mail = await transporter.sendMail({
+let mail = {
     from:'"Nan Wang Learning Hub" <nanwanglearningsg@gmail.com>',
     to: "pyrrhonianpig@gmail.com",
    // bcc: "info@nanwanglearning.com.sg",
@@ -34,11 +34,20 @@ let mail = await transporter.sendMail({
     <blockquote>${message}</blockquote>
     </p>
     `,
-}); 
-    transporter.close()
-    console.log('mail sent:', mail.response)
-}
-main().catch(console.error);
+} 
+await new Promise((resolve, reject) => {
+    transporter.sendMail(mail, (err, info) => {
+      if (err) {
+        console.error(err);
+        reject(err);
+      } else {
+        resolve(info);
+      }
+    });
+  });
+    
+
+// return
        return { 
         success: true,
         name,
