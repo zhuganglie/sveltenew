@@ -8,29 +8,30 @@ export const actions = {
        const name = form.get('name');
        const message = form.get('message');
        // do whatever you want to do with email and password
-    
+  
 let transporter = nodemailer.createTransport({
     host:"smtp.gmail.com",
     port:587,
     secure: false,
     auth:{
-        user:'import.meta.env.VITE_MAIL_USER',
-        pass: 'import.meta.env.VITE_MAIL_PASS',
+        user: 'nanwanglearningsg@gmail.com',
+        pass: 'uznqowwgxxmtpwqe',
             },
         })
 let mail = {
     from:'"Nan Wang Learning Hub" <nanwanglearningsg@gmail.com>',
-    to: "info@nanwanglearning.com.sg",
-    bcc: "${email}",
+    to: email,
+   // bcc: "info@nanwanglearning.com.sg",
     subject: "Form Submitted",
     //text: "${message}",
     html:`
-    Here is a new form submitted from yzc.vercel.app site.
+    Hi, here is what you just submitted on yzc.vercel.app. 
     <p>Name: ${name}</p>
     <p>Email: ${email}</p>
     <p>Message:
     <blockquote>${message}</blockquote>
     </p>
+    I will get back to you again soon. Thank you!
     `,
 }
 
