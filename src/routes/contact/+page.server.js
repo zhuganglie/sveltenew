@@ -10,9 +10,10 @@ export const actions = {
        // do whatever you want to do with email and password
   
 let transporter = nodemailer.createTransport({
+    service:"Gmail",
     host:"smtp.gmail.com",
-    port:587,
-    secure: false,
+    port:465,
+    secure: true,
     auth:{
         user: 'nanwanglearningsg@gmail.com',
         pass: 'uznqowwgxxmtpwqe',
