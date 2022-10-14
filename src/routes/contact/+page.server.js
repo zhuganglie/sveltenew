@@ -20,18 +20,17 @@ let transporter = nodemailer.createTransport({
         })
 let mail = {
     from:'"Nan Wang Learning Hub" <nanwanglearningsg@gmail.com>',
-    to: email,
+    to: "pyrrhonianpig@gmail.com",
    // bcc: "info@nanwanglearning.com.sg",
     subject: "Form Submitted",
     //text: "${message}",
     html:`
-    Hi, here is what you just submitted on yzc.vercel.app. 
+    Someone just submitted a form on yzc.vercel.app. Here is what they had to say.
     <p>Name: ${name}</p>
     <p>Email: ${email}</p>
     <p>Message:
     <blockquote>${message}</blockquote>
     </p>
-    I will get back to you again soon. Thank you!
     `,
 }
 
