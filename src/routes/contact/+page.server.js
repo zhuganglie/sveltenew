@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer'
+import { env as private_env } from '$env/dynamic/private'
 
 /** @type {import('./$types').Actions} */
 export const actions = {
@@ -16,8 +17,8 @@ let transporter = nodemailer.createTransport({
     port:587,
     secure: false,
     auth:{
-        user: 'nanwanglearningsg@gmail.com',
-        pass: 'uznqowwgxxmtpwqe',
+        user: private_env.VITE_MAIL_USER,
+        pass: private_env.VITE_MAIL_PASS,
             },
         })
 let mail = {
