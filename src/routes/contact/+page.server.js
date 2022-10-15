@@ -52,7 +52,6 @@ await new Promise((resolve, reject) => {
        return { 
         success: true,
         name,
-    };
-  
+    };  
     }
   };
