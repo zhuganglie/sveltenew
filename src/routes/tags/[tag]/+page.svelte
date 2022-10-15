@@ -13,7 +13,7 @@
 <hr />
 
 {#if data.posts.length }
-  <ul class="mt-8">
+  <ol class="mt-8">
     {#each data.posts as post}
     {#if !post.draft}
       <li>
@@ -23,7 +23,7 @@
       </li>
       {/if}
     {/each}
-  </ul>
+  </ol>
   <a href="/tags" class="mt-8 px-2 py-1 rounded bg-zinc-100">All Tags</a>
 {:else}
 <p><strong>Ope!</strong> Sorry, couldn't find any note under the tag "{data.params}".</p>
@@ -31,7 +31,7 @@
 </div>
 
 <style>
-  li {
-    @apply mb-4;
+  :global(li) {
+    @apply mb-2;
   }
 </style>

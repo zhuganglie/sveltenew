@@ -4,12 +4,12 @@ import { parse } from 'node-html-parser'
 // @ts-ignore
 import readingTime from 'reading-time/lib/reading-time.js'
 
-// we require some server-side APIs to parse all metadata
+
 if (browser) {
   throw new Error(`posts can only be imported server-side`)
 }
 
-// Get all posts and add metadata
+
 export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: true }))
   .map(([filepath, post]) => {
     // @ts-ignore
@@ -28,9 +28,9 @@ export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: 
       // (needed to do correct dynamic import in posts/[slug].svelte)
       isIndexFile: filepath.endsWith('/index.md'),
 
-      // format date as yyyy-MM-dd
+      
       // @ts-ignore
-      date: post.metadata.date
+     date: post.metadata.date
         ? formatDate(post.metadata.date)
         : undefined,
 
@@ -38,7 +38,7 @@ export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: 
       readingTime: readingTime(html.structuredText).text
     }
   })
-  // sort by date
+
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   // add references to the next/previous post
   .map((post, index, allPosts) => ({
