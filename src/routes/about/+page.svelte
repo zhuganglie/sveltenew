@@ -39,7 +39,7 @@ Here is some info about me.
 		<SplideSlide class="grid place-items-center place-content-center">
 			<div class="grid place-items-center place-content-center">
 			<span class="text-center font-bold mb-6">My Favorite Food</span>
-			<img src="/images/crab.jpeg" alt="crab" class="w-full md:w-3/4 object-contain h-auto" />
+			<img src="/images/crab.jpeg" alt="crab" class="w-full lg:w-3/4 object-contain h-auto" />
 			</div>
 		  </SplideSlide>
 	  </Splide>
