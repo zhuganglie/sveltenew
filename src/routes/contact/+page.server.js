@@ -22,7 +22,7 @@ let transporter = nodemailer.createTransport({
             },
         })
 let mail = {
-    from:'"Nan Wang Learning Hub" <nanwanglearningsg@gmail.com>',
+    from:'private_env.VITE_MAIL_USER',
     to: "pyrrhonianpig@gmail.com",
    // bcc: "info@nanwanglearning.com.sg",
     subject: "Form Submitted",
