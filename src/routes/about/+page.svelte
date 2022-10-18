@@ -1,4 +1,8 @@
 <script>
+	 /** @type {import('./$types').PageData} */	
+	 export let data;
+	 console.log(data.users)
+
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import '@splidejs/splide/dist/css/splide.min.css';
 </script>
@@ -43,5 +47,10 @@ Here is some info about me.
 			</div>
 		  </SplideSlide>
 	  </Splide>
+	</section>
+	<section class="mt-20 text-center">
+		{#each data.users as user}
+				<p>{user._id}</p>
+		{/each}
 	</section>
 </article>

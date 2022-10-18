@@ -1,3 +1,8 @@
+import { start_mongo } from "./db/mongo";
+start_mongo().then(() => {
+	console.log('Mongo started');
+}).catch(e => {console.error(e)})
+
 /** @type {import('@sveltejs/kit').Handle} */
 export const handle = async ({ event, resolve }) => {
 	let userid = event.cookies.get('userid');

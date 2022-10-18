@@ -7,7 +7,7 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
 	},
 
 	preprocess: [mdsvex(mdsvexConfig)]
