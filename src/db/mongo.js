@@ -1,8 +1,8 @@
 import {MongoClient} from 'mongodb';
 // @ts-ignore
-import { MONGODB_URL } from '$env/static/private'; 
+import { MONGODB_URI } from '$env/static/private'; 
 
-const client = new MongoClient(MONGODB_URL)
+const client = new MongoClient(MONGODB_URI)
 
 export function start_mongo() {
 	console.log('Starting mongo...');
