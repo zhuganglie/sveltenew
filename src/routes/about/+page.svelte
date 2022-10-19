@@ -50,7 +50,7 @@ Here is some info about me.
 		  </SplideSlide>
 		  <SplideSlide class="grid place-items-center place-content-center">
 			<div class="grid place-items-center place-content-center">
-			<span class="text-center font-bold mb-6">My Favorite Cookery</span>
+			<span class="text-center font-bold mb-6">My Favorite Dishes</span>
 			<table style="width:100%">
 				<tr>
 					{#each data.recipe as item}
