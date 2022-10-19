@@ -9,4 +9,4 @@ export function start_mongo() {
 	return client.connect();
 }
 
-export const db = client.db("sveltesite")
+export const db = client.db("sveltenew")
