@@ -14,21 +14,21 @@
   <div class="">
     <h1>Posts</h1>
 <hr />
-    <div class="flex-grow space-y-4 mt-8">
+    <main class="flex-grow space-y-4 mt-8">
       {#each data.posts as post}
       {#if !post.draft}
-        <div class="py-8 px-4 first:pt-0 border-1">
-          <p><span class=" underline">{post.date}</span></p>
+        <article class="py-8 px-4 bg-zinc-50">
+          <p class=" underline">{post.date}</p>
          <h2 class="text-center"><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
-          <div class="flex space-x-4">
+          <p class="flex space-x-4">
           {#each post.tags as tag}
-           <span class="list-none bg-zinc-200  rounded-full px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></span>
+           <a href="/tags/{tag}" class="list-none bg-zinc-200  rounded-full px-2 py-0.5">{tag}</a>
           {/each}
-          </div>
-        </div>
+          </p>
+        </article>
         {/if}
       {/each}
-    </div>
+      </main>
   
     <!-- pagination -->
     <div class="flex visible items-center justify-between pt-8 opacity-70">
