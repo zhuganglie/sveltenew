@@ -20,11 +20,11 @@
         <div class="py-8 px-4 first:pt-0 border-1">
           <p><span class=" underline">{post.date}</span></p>
          <h2 class="text-center"><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
-          <ul class="flex space-x-4">
+          <div class="flex space-x-4">
           {#each post.tags as tag}
-           <li class="list-none border-1 border-teal-900 rounded-full px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></li>
+           <span class="list-none bg-zinc-200  rounded-full px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></span>
           {/each}
-          </ul>
+          </div>
         </div>
         {/if}
       {/each}

@@ -7,7 +7,7 @@ draft: false
 
 #### 教学设计的九步模型
 
-美国教育心理学家加涅<a href="https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9"  target="_blank">（Robert Gagne）</a>提出了一个九步教学模型。根据这个模型，一个完整的教学过程应包含以下九个环节。
+美国教育心理学家加涅<a href="https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9"  target="_blank" rel="noreferrer">（Robert Gagne）</a>提出了一个九步教学模型。根据这个模型，一个完整的教学过程应包含以下九个环节。
 
 1. 集中学员注意力
 2. 告知学习目标
