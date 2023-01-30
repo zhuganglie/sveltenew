@@ -12,7 +12,7 @@
       <input type="text" name="name" placeholder="John Smith" required class="bg-zinc-50 p-2">
       <input type="email" name="email" placeholder="johnsmith@abc.com" required class="bg-zinc-50 p-2">
   <textarea name="message" placeholder="Message" rows="10" required class="p-2 bg-zinc-50 "></textarea>
-      <button class="max-w-max px-2 py-1 cursor-pointer bg-teal-900 text-teal-50">Submit</button>
+      <button class="max-w-max px-2 py-1 cursor-pointer bg-teal-900 text-teal-50 rounded">Submit</button>
     </form>
 <p>
     {#if form?.success}
