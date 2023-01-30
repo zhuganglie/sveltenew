@@ -1,6 +1,5 @@
 <script>
-	
-</script>
+	</script>
 
 <svelte:head>
 	<title>Home</title>
@@ -26,7 +25,7 @@
 				<p class="md:ml-4">古今多少事，</p>
 				<p class="md:ml-4">都付笑谈中。</p>
 	</div> 
-				
+	
 </section>
 
 <style>  
