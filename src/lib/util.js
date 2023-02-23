@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Paginates an array of data.
  *
