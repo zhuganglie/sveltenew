@@ -30,8 +30,3 @@
 {/if}
 </div>
 
-<style>
-  :global(li) {
-    @apply mb-2;
-  }
-</style>

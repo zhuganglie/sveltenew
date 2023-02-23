@@ -14,6 +14,9 @@ html {
 a {
 	@apply inline-block no-underline text-teal-900 hover:text-teal-700 focus:text-teal-700 outline-offset-2;
   }
+  li {
+	@apply mb-2;
+  }
 
   h1 {
 	margin: 0 0 1.5rem 0; 

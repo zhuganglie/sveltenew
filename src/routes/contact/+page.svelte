@@ -3,9 +3,11 @@
   //export let data;
   /** @type {import('./$types').ActionData} */
   export let form;
+  
 </script>
 
-<div>
+
+  <div>
   <h1>Contact</h1>
   <hr />
     <form method="POST" class="flex flex-col space-y-4 mt-8">
@@ -16,9 +18,8 @@
     </form>
 <p>
     {#if form?.success}
-    <!-- this message is ephemeral; it exists because the page was rendered in
-         response to a form submission. it will vanish if the user reloads -->
     <p>Successfully submited. Thank you, {form.name}!</p>
   {/if}
   </p>
    </div>
+  
