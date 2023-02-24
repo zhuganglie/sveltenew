@@ -1,10 +1,11 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { fade } from 'svelte/transition'
+	import { fade } from 'svelte/transition';
+	import "prismjs/themes/prism.css";
 	import 'uno.css';
 	import '../app.css';
-
+  	
 	/**
 	 * @type {{ currentRoute: any; }}
 	 */

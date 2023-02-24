@@ -6,6 +6,12 @@ tags: ['frontend', 'sveltekit']
 draft: false
 ---
 
+**Prompt:** 
+
+Create a button to toggle navigation bar in Sveltekit.
+
+
+**Response:**
 
 
 SvelteKit is a web application framework that allows you to build fast and efficient web applications. One of the common features of web applications is the navigation bar. In this tutorial, we will show you how to create a button to toggle the navigation bar in SvelteKit.
