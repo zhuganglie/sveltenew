@@ -11,7 +11,6 @@
 		{href: '/', name: 'Home'},
 		{href:'/blog', name: 'Blog'},
 		{href:'/tags', name:'Tags'},
-		{href:'/ai', name:'AI'},
 		{href: '/about', name: 'About'},
 		{href: '/contact', name: 'Contact'},
 	]
