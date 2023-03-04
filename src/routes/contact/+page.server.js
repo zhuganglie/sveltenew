@@ -14,7 +14,7 @@ export const actions = {
     const name = form.get('name');
     const message = form.get('message');
 
-/*    // Send email notification
+    // Send email notification
     let transporter = nodemailer.createTransport({
       service: "Gmail",
       host: "smtp.gmail.com",
@@ -46,7 +46,7 @@ export const actions = {
             resolve(info);
           }
         });
-      }); */
+      }); 
 
     // Add form data to Notion database
     const databaseId = private_env.NOTION_DATABASE_ID;
