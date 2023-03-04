@@ -75,6 +75,7 @@ export const actions = {
     };
     await notion.pages.create({
       parent: { database_id: databaseId },
+      // @ts-ignore
       properties: newPage,
     });
 
