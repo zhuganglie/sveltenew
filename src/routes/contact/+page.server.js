@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer'
 import { env as private_env } from '$env/dynamic/private'
 import { Client } from '@notionhq/client';
-import { text } from 'svelte/internal';
+
 
 // Initialize Notion client
 const notion = new Client({ auth: private_env.NOTION_API_KEY });

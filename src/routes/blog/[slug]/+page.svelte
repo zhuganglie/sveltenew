@@ -14,7 +14,7 @@
     <h1 class="!mb-2">
         {data.post.title}
     </h1>
-    <div class="opacity-70 mb-2 flex space-x-6">
+    <div class="opacity-70 mt-8 flex space-x-6">
 
       <div class="flex items-center justify-center space-x-1"> 
         <div class="i-mdi-calendar text-lg" />
@@ -26,11 +26,7 @@
       <div>{data.post.readingTime}</div>
     </div>
     </div>
-    <div class="flex items-center justify-start space-x-4">
-      {#each data.post.tags as tag}
-       <span class="list-none bg-zinc-200 rounded  px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></span>
-      {/each}
-    </div>
+   
   <hr />
 
     <div class="mt-8">
@@ -40,10 +36,17 @@
   
 </article>
   
-  <div class="mt-8 px-2 py-1 rounded flex justify-between bg-zinc-100  max-w-max">
+<div class="flex justify-between mt-8">
+<div class="flex items-center justify-start space-x-4">
+  {#each data.post.tags as tag}
+   <span class="list-none bg-zinc-200 rounded  px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></span>
+  {/each}
+</div>
+<div class="px-2 py-0.5 rounded flex items-center bg-zinc-100  max-w-max">
     <a href={`/blog`} class="">
       All Posts 
     </a>
+  </div>
   </div>
 <hr />
   <div class="mt-6">

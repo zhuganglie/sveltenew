@@ -23,7 +23,7 @@ Here is some info about me.
 		rewind: true,
 		width : 1000,
 		gap   : '1rem',
-		height: '14em',
+		height: '25em',
 	  } } class="w-full md:w-2/3 mx-auto px-12 py-6">
 		<SplideSlide class="grid place-items-center place-content-center">
 		  <div class="grid place-items-center place-content-center">
