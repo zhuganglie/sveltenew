@@ -1,15 +1,18 @@
+
+
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { fade } from 'svelte/transition';
-	import "prismjs/themes/prism.css";
 	import 'uno.css';
 	import '../app.css';
+	import '../lib/components/Prism.svelte'
   	
 	/**
 	 * @type {{ currentRoute: any; }}
 	 */
 	 export let data
+
 </script>
 
 <div class="flex flex-col h-screen justify-between">
