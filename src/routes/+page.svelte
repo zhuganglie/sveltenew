@@ -6,7 +6,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+<main class="min-h-max">
 	<div>
 		<img src="/images/casual.webp" alt="Welcome" class="w-full h-auto"/>
 	</div>
@@ -26,7 +26,7 @@
 				<p class="md:ml-4">都付笑谈中。</p>
 	</div> 
 	
-</section>
+</main>
 
 <style>  
 	@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
