@@ -1,10 +1,30 @@
 <script>
     import { name } from '$lib/info.js'
+    import { onMount } from 'svelte'
+  
     /** @type {import('./$types').PageData} */
     export let data
-    //console.log(data)
-    $: isFirstPage = data.page === 1
-    $: hasNextPage = data.posts[data.posts.length - 1]?.previous
+  
+    let searchInput = ''
+  
+    /**
+	 * @type {any[]}
+	 */
+    let filteredPosts = []
+  
+    $: {
+      filteredPosts = data.posts.filter(post =>
+        post.title.toLowerCase().includes(searchInput.toLowerCase())
+      )
+    }
+  
+    let isFirstPage = false
+    let hasNextPage = false
+  
+    onMount(() => {
+      isFirstPage = data.page === 1
+      hasNextPage = !!data.posts[data.posts.length - 1]?.previous
+    })
   </script>
   
   <svelte:head>
@@ -13,29 +33,37 @@
   
   <div class="">
     <h1>Posts</h1>
-<hr />
+    <hr />
+    <div class="mb-8">
+      <input
+        type="text"
+        bind:value={searchInput}
+        placeholder="Search posts..."
+        class="border border-gray-400 px-3 py-2 rounded-md w-full"
+      />
+    </div>
     <main class="flex-grow space-y-4 mt-8">
-      {#each data.posts as post}
-      {#if !post.draft}
-        <article class="py-8 px-4 bg-zinc-50">
-          <p class=" underline">{post.date}</p>
-         <h2 class="text-center"><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
-          <p class="flex space-x-4">
-          {#each post.tags as tag}
-           <a href="/tags/{tag}" class="list-none bg-zinc-200  rounded-full px-2 py-0.5">{tag}</a>
-          {/each}
-          </p>
-        </article>
-        {/if}
+      {#each filteredPosts as post}
+        {#if !post.draft}
+          <article class="py-8 px-4 bg-zinc-50">
+            <p class=" underline">{post.date}</p>
+           <h2 class="text-center"><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
+            <p class="flex space-x-4">
+            {#each post.tags as tag}
+             <a href="/tags/{tag}" class="list-none bg-zinc-200  rounded-full px-2 py-0.5">{tag}</a>
+            {/each}
+            </p>
+          </article>
+          {/if}
       {/each}
-      </main>
+    </main>
   
     <!-- pagination -->
     <div class="flex visible items-center justify-between pt-8 opacity-70">
       {#if !isFirstPage}
         <a href={`/blog/page/${data.page - 1}`}>
           Previous
-          </a>
+        </a>
       {:else}
         <div />
       {/if}
