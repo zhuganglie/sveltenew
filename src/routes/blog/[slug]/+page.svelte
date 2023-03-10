@@ -42,7 +42,7 @@
    <span class="list-none bg-zinc-200 rounded  px-2 py-0.5"> <a href="/tags/{tag}">{tag}</a></span>
   {/each}
 </div>
-<div class="px-2 py-0.5 rounded flex items-center bg-zinc-100  max-w-max">
+<div class="px-2 py-0.5 rounded flex items-center bg-zinc-200  max-w-max">
     <a href={`/blog`} class="">
       All Posts 
     </a>
