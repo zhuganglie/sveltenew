@@ -2,8 +2,8 @@
 // @ts-nocheck
 
 	import { page } from '$app/stores';
-	
 	import { clickOutside } from "svelte-use-click-outside";
+	
 	let open = false;
     const toggleHeader = () => {open = !open};
 	const clickOutsideHandler = () => {open = false};
