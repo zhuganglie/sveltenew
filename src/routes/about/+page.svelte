@@ -1,9 +1,7 @@
 <script>
 // @ts-nocheck
 
-	 /** @type {import('./$types').PageData} */	
-	 export let data;
-	 console.log(data.recipe)
+	 
 
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import '@splidejs/splide/dist/css/splide.min.css';
@@ -48,23 +46,7 @@ Here is some info about me.
 			<img src="/images/crab.jpeg" alt="crab" class="w-full lg:w-3/4 object-contain h-auto" />
 			</div>
 		  </SplideSlide>
-		  <SplideSlide class="grid place-items-center place-content-center">
-			<div class="grid place-items-center place-content-center">
-			<span class="text-center font-bold mb-6">My Favorite Dishes</span>
-			<table style="width:100%">
-				<tr>
-					{#each data.recipe as item}
-					<th>{item.type}</th>
-					{/each}
-				</tr>
-				<tr>
-					{#each data.recipe as item}
-					<td>{item.name}</td>
-					{/each}
-				</tr>
-			</table>
-			</div>
-		  </SplideSlide>
+		  
 	  </Splide>
 	</section>
 	
