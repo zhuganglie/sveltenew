@@ -52,11 +52,3 @@ Here is some info about me.
 	
 </article>
 
-<style>
-	table, td, th {
-		@apply border border-zinc-500 border-collapse;
-	}
-	th, td {
-		@apply bg-zinc-200 text-center px-4 py-2;
-}
-</style>
