@@ -1,6 +1,6 @@
 <script>
     import { name } from '$lib/info.js'
-    import { onMount } from 'svelte'
+    //import { onMount } from 'svelte'
   
     /** @type {import('./$types').PageData} */
     export let data
@@ -20,11 +20,14 @@
   
     let isFirstPage = false
     let hasNextPage = false
+
+    isFirstPage = data.page === 1
+      hasNextPage = !!data.posts[data.posts.length - 1]?.previous
   
-    onMount(() => {
+    /*onMount(() => {
       isFirstPage = data.page === 1
       hasNextPage = !!data.posts[data.posts.length - 1]?.previous
-    })
+    })*/
   </script>
   
   <svelte:head>
