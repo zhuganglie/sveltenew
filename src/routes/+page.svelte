@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-	import { cascade } from 'svelte-typewriter'
+	import Typewriter from 'svelte-typewriter'
 	</script>
 
 <svelte:head>
@@ -13,7 +13,8 @@
 	<div>
 		<img src="/images/casual.webp" alt="Welcome" class="w-full h-auto"/>
 	</div>
-	<div use:cascade={{ interval: 90 }} class="one text-3xl text-center">
+	<Typewriter mode=cascade interval=90>
+	<div class="one text-3xl text-center">
 		<h1 class="text-3xl md:ml-12 mb-12">临 江 仙</h1>
 		<p  class="font-bold  font-sans  text-base md:ml-12 mb-12">『 明 』 &middot; 杨慎 </p>
 				<p class="md:ml-4">滚滚长江东逝水，</p>
@@ -28,7 +29,7 @@
 				<p class="md:ml-4">古今多少事，</p>
 				<p class="md:ml-4">都付笑谈中。</p>
 	</div> 
-	
+</Typewriter>
 </main>
 
 <style>  
