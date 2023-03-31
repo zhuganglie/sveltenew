@@ -1,10 +1,10 @@
-
 ---
-title: 'Toggle Navigation Bar in SvelteKit'
-date: '2023-02-22'
+title: Toggle Navigation Bar in SvelteKit
+date: 2023-02-22
 tags: ['frontend', 'sveltekit']
 draft: false
 ---
+
 
 **Prompt:** 
 
@@ -20,7 +20,7 @@ SvelteKit is a web application framework that allows you to build fast and effic
 
 First, let's create a navigation bar component. In the `src/components` directory, create a new file called `NavigationBar.svelte` and add the following code:
 
-```
+```html
 <nav>
   <ul>
     <li><a href="#">Home</a></li>
@@ -50,7 +50,7 @@ This is a button component that takes a click event and a slot. We will use this
 
 Now, we need to add logic to the `NavigationBar` component to toggle it. In `NavigationBar.svelte`, add the following code:
 
-```
+```svelte
 <script>
   let open = false;
 
@@ -75,7 +75,7 @@ This code creates a `open` variable with a default value of `false`. When the `t
 
 Finally, let's use the button component to toggle the navigation bar. In `NavigationBar.svelte`, add the following code:
 
-```
+```svelte
 <script>
   import Button from './Button.svelte';
 </script>
