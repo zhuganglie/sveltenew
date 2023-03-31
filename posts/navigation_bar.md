@@ -37,7 +37,7 @@ This is a simple navigation bar with three links.
 
 Next, let's create a button component. In the same `src/components` directory, create a new file called `Button.svelte` and add the following code:
 
-```
+```svelte
 <button on:click={toggle}>
   <slot></slot>
 </button>
