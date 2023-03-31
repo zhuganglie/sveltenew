@@ -42,20 +42,20 @@ For example:
     ```python
         x = 5                    
         if x > 3:               
-        print("x is greater than 3")   
+            print("x is greater than 3")   
         else:                         
-        print("x is less than or equal to 3")
+            print("x is less than or equal to 3")
     ```
 
 5. Loops: Python supports for and while loops for iterative execution of code. For example: 
   
     ```python
         for i in range(5):        
-        print(i)             
+            print(i)             
         x = 0    
         while x < 5:               
-        print(x)
-        x += 1
+            print(x)
+            x += 1
     ```
 
 These are just a few examples of the basic syntax of Python. There's a lot more to learn, but this should give you a good starting     
