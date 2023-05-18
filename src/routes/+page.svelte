@@ -13,7 +13,7 @@
 	<div>
 		<img src="/images/casual.webp" alt="Welcome" class="w-full h-auto"/>
 	</div>
-	<Typewriter mode=cascade interval=90>
+	<Typewriter mode=cascade interval=180>
 	<div class="one text-3xl text-center">
 		<h1 class="text-3xl md:ml-12 mb-12">临 江 仙</h1>
 		<p  class="font-bold  font-sans  text-base md:ml-12 mb-12">『 明 』 &middot; 杨慎 </p>
