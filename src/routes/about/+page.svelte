@@ -1,8 +1,6 @@
 <script>
 // @ts-nocheck
 
-	 
-
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import '@splidejs/splide/dist/css/splide.min.css';
 </script>
