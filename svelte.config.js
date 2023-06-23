@@ -5,11 +5,11 @@ import sveltePreprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter()
 	},
 
 	preprocess: [mdsvex(mdsvexConfig), sveltePreprocess()]
