@@ -18,19 +18,19 @@
 
 
 	<nav class="sticky top-0 bg-zinc-100 z-999 w-full px-8 py-4 flex justify-between md:justify-around shadow" >
-	<div class="bg-teal-900 rounded-full h-min px-2">
+	<div class="bg-teal-900 rounded-full h-min px-3.5 py-0.5">
 		<span class=" text-teal-50 text-2xl md:text-3xl font-bold">YZC</span>
 	</div>
 		<ul class:hidden="{!open}" class="min-w-max mt-18 md:my-0 md:flex md:flex-row md:justify-around md:items-center md:space-x-6 md:space-y-0 space-y-4 md:space-y-0">
 		{#each routes as route}
 		
-		<li class="list-none px-2 py-1 m-0 " class:active={$page.url.pathname === route.href || $page.url.pathname.includes(route.href + "/" )}><a sveltekit:prefetch href={route.href} class="no-underline" >{route.name}</a>
+		<li class="list-none px-2 py-1 m-0 " class:active={$page.url.pathname === route.href || $page.url.pathname.includes(route.href + "/" )}><a prefetch href={route.href} class="" >{route.name}</a>
 		</li>
 		{/each}
 		</ul>
 	
 	
-        <div use:clickOutside={clickOutsideHandler} type="button" class="md:hidden" class:open on:click={toggleHeader} on:keypress>
+        <div use:clickOutside={clickOutsideHandler} tabindex="0" role="button" class="md:hidden" class:open on:click={toggleHeader} on:keypress>
            <div class:open={open} class="i-mdi-menu text-3xl text-teal-900 font-bold" />
 		</div>
     
@@ -39,7 +39,7 @@
 <style>
 
 .active {
-	@apply bg-zinc-200 font-bold;
+	@apply font-bold border-b-solid border-b-2 border-b-teal-900;
 }
 .open {
 	@apply i-mdi-close text-3xl text-teal-900;
