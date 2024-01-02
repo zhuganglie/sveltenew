@@ -4,6 +4,7 @@
   
     /** @type {import('./$types').PageData} */
     export let data
+    console.log(data)
   
     let searchInput = ''
   
@@ -14,7 +15,7 @@
   
     $: {
       filteredPosts = data.posts.filter(post =>
-        post.title.toLowerCase().includes(searchInput.toLowerCase())
+        post.title.toLowerCase().includes(searchInput.toLowerCase()) 
       )
     }
   

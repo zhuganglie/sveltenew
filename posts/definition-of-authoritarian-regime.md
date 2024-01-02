@@ -1,7 +1,7 @@
 ---
 title: What is Authoritarian Regime?
 date: 2023-12-18
-tags: ["learning","politics"]
+tags: ["politics", "authoritarianism"]
 draft: false
 ---
 

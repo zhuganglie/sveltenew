@@ -1,7 +1,7 @@
 ---
 title: The basic syntax of Python
 date: 2023-03-30
-tags: ['learning','python',syntax]
+tags: ['learning','python']
 draft: false
 ---
 
