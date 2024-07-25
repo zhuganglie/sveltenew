@@ -1,5 +1,5 @@
 ---
-title: The Resilience of Authoritarian Regimes: An Enduring Paradox
+title: The Resilience of Authoritarian Regimes
 date: 2023-10-27
 tags: 
   - authoritarianism
