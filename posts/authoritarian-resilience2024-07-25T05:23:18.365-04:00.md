@@ -1,6 +1,6 @@
 ---
 draft: false
-title: The Resilience of Authoritarian Regimes:  A Complex and Evolving Phenomenon
+title: The Resilience of Authoritarian Regimes
 date: 2023-10-26
 tags: ["authoritarianism", "comparative politics", "political economy", "political science"] 
 ---
