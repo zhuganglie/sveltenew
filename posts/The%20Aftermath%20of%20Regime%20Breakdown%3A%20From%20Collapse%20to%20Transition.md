@@ -1,5 +1,5 @@
 ```yaml
-title: The Aftermath of Regime Breakdown: Navigating the Turbulent Waters of Transition
+title: "The Aftermath of Regime Breakdown: Navigating the Turbulent Waters of Transition"
 date: "2023-10-26"
 tags: 
   - politics
