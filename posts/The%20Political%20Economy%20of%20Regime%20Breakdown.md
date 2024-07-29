@@ -1,6 +1,6 @@
 ```yaml
 title: "The Crumbling Edifice: Exploring the Political Economy of Regime Breakdown"
-date: 2023-10-26
+date: "2023-10-26"
 tags:
   - Political Economy
   - Regime Change
@@ -20,7 +20,7 @@ At the heart of many regime breakdowns lies a simple, yet potent, truth: **econo
 
 **Beyond Inequality: The Role of Elites and Institutions**
 
-However, economic discontent alone doesn't guarantee regime breakdown. Enter the critical roles of **elites** and **institutions**. 
+However, economic discontent alone doesn't guarantee regime breakdown. Enter the critical roles of **elites** and **institutions**.
 
 A regime often begins to crumble when cracks appear within the ruling elite. Factions may emerge, driven by ideological differences, competition for resources, or simply a desire for greater power. As these internal fissures widen, the regime's grip on power weakens, creating opportunities for opposition groups to exploit.
 
@@ -34,4 +34,4 @@ These events serve as **tipping points**, pushing an already strained system bey
 
 **Understanding the Past to Navigate the Future**
 
-Studying the political economy of regime breakdown isn't just an academic exercise. By understanding the factors that contribute to the collapse of regimes, we gain invaluable insights into the fragility of political systems. This knowledge is crucial for policymakers, activists, and citizens alike, helping us identify potential warning signs, promote inclusive economic policies, and build resilient institutions that can withstand the test of time. 
+Studying the political economy of regime breakdown isn't just an academic exercise. By understanding the factors that contribute to the collapse of regimes, we gain invaluable insights into the fragility of political systems. This knowledge is crucial for policymakers, activists, and citizens alike, helping us identify potential warning signs, promote inclusive economic policies, and build resilient institutions that can withstand the test of time.

@@ -1,6 +1,6 @@
 ```yaml
 title: The International Context of Regime Breakdown
-date: 2023-10-27
+date: "2023-10-27"
 tags: 
   - Political Science
   - International Relations
@@ -28,7 +28,7 @@ The international arena serves as a battleground for competing ideologies, and t
 
 **International Organizations and Norms:**
 
-International organizations like the United Nations and non-governmental organizations play a role in shaping the norms and expectations surrounding regime legitimacy and human rights. While their influence can be limited, these actors can exert pressure on regimes through sanctions, condemnation, and by providing platforms for opposition voices. 
+International organizations like the United Nations and non-governmental organizations play a role in shaping the norms and expectations surrounding regime legitimacy and human rights. While their influence can be limited, these actors can exert pressure on regimes through sanctions, condemnation, and by providing platforms for opposition voices.
 
 **The Limits of External Influence:**
 
@@ -36,4 +36,4 @@ It is important to note that the international context is not deterministic. Whi
 
 **Conclusion:**
 
-Understanding the international context is crucial for comprehending the complex dynamics of regime breakdown. From the destabilizing effects of global events to the influence of foreign powers and the spread of ideologies, the international environment acts as both a catalyst and a constraint on regime change. Analyzing these external factors alongside domestic ones provides a more complete picture of why regimes rise, fall, and transform. 
+Understanding the international context is crucial for comprehending the complex dynamics of regime breakdown. From the destabilizing effects of global events to the influence of foreign powers and the spread of ideologies, the international environment acts as both a catalyst and a constraint on regime change. Analyzing these external factors alongside domestic ones provides a more complete picture of why regimes rise, fall, and transform.
