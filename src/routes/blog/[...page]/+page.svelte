@@ -51,7 +51,7 @@
         {#if !post.draft}
           <article class="py-8 px-4 bg-zinc-50">
             <p class=" underline">{post.date}</p>
-           <h2 class="text-center"><a href={`/blog/${post.slug}`}>{post.title}</a></h2>
+           <p class="text-center text-lg"><a href={`/blog/${post.slug}`}>{post.title}</a></p>
             <p class="flex space-x-4">
             {#each post.tags as tag}
              <a href="/tags/{tag}" class="list-none bg-zinc-200  rounded-full px-2 py-0.5">{tag}</a>
