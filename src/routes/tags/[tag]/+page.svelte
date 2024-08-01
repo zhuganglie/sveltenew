@@ -16,7 +16,7 @@
   <ol class="mt-8">
     {#each data.posts as post}
     {#if !post.draft}
-      <li>
+      <li class="list-outside">
           <a href="/blog/{post.slug}">
             {post.title}
           </a>

@@ -36,14 +36,14 @@
   
 </article>
   
-<div class="flex justify-between mt-8">
-<div class="w-fit inline-block space-x-4">
+<div class=" flex justify-between items-start gap-4 mt-8">
+<div class=" flex flex-wrap gap-2 ">
   {#each data.post.tags as tag}
-   <span class="w-fit inline-block list-none bg-zinc-200 rounded  px-2 py-0.5 space-y-2"> <a href="/tags/{tag}" class="w-fit inline-block">{tag}</a></span>
+   <span class=" list-none bg-zinc-200 rounded  px-2 py-0.5 "> <a href="/tags/{tag}" class="">{tag}</a></span>
   {/each}
 </div>
-<div class="px-2 py-0.5 rounded inline-block items-center bg-zinc-200  w-fit">
-    <a href={`/blog`} class="w-fit inline-block">
+<div class="px-2 py-0.5 rounded items-center bg-zinc-200 min-w-max gap-2">
+    <a href={`/blog`} class="inline-block">
       All Posts 
     </a>
   </div>
