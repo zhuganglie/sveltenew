@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Y -->
+  <path d="M40 40 L70 80 L100 40 M70 80 L70 160" fill="none" stroke="#4a90e2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Z -->
+  <path d="M110 40 L170 40 L110 160 L170 160" fill="none" stroke="#4a90e2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- C -->
+  <path d="M170 70 Q140 40 110 70 Q80 100 110 130 Q140 160 170 130" fill="none" stroke="#4a90e2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

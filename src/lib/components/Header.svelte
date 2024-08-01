@@ -18,9 +18,11 @@
 
 
 	<nav class="sticky top-0 bg-zinc-100 z-999 w-full px-8 py-4 flex justify-between md:justify-around shadow" >
-	<div class="bg-teal-900 rounded-full h-min px-3.5 py-0.5">
+	<!--<div class="bg-teal-900 rounded-full h-min px-3.5 py-0.5">
 		<span class=" text-teal-50 text-2xl md:text-3xl font-bold">YZC</span>
-	</div>
+	</div>-->
+	<img src="/images/yzc.svg" alt="yzc" width=56 height=56 class="bg-teal-900 rounded">
+
 		<ul class:hidden="{!open}" class="min-w-max mt-18 md:my-0 md:flex md:flex-row md:justify-around md:items-center md:space-x-6 md:space-y-0 space-y-4 md:space-y-0">
 		{#each routes as route}
 		
