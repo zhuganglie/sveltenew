@@ -21,7 +21,7 @@
 	<!--<div class="bg-teal-900 rounded-full h-min px-3.5 py-0.5">
 		<span class=" text-teal-50 text-2xl md:text-3xl font-bold">YZC</span>
 	</div>-->
-	<img src="/images/yzc.svg" alt="yzc" class="m-o p-0 w-8 h-8 md:w-12 md:h-12 bg-teal-900">
+	<img src="/images/yzc-teal.svg" alt="yzc" class="m-o p-0 w-8 h-8 md:w-12 md:h-12 bg-teal-900">
 	
 
 		<ul class:hidden="{!open}" class="min-w-max mt-18 md:my-0 md:flex md:flex-row md:justify-around md:items-center md:space-x-6 md:space-y-0 space-y-4 md:space-y-0">
