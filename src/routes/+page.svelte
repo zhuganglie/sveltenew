@@ -10,8 +10,8 @@
 </svelte:head>
 
 <main class="min-h-max">
-	<div>
-		<img src="/images/casual.webp" alt="Welcome" class="w-full h-auto"/>
+	<div class="mb-8">
+		<img src="/images/1.webp" alt="Welcome" class="w-full h-auto"/>
 	</div>
 	<Typewriter mode=cascade interval=180>
 	<div class="one text-3xl text-center">
