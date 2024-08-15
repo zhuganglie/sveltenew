@@ -50,7 +50,7 @@ draft: false
 * McAdam, D. (1982). Political process and the development of Black insurgency, 1930-1970. University of Chicago Press.
 * Meyer, D. S., & Minkoff, D. C. (2004). Conceptualizing political opportunity. Social Forces, 82(4), 1457-1492.
 * Tarrow, S. G. (2011). Power in movement: Social movements and contentious politics (3rd ed.). Cambridge University Press.
-*Vráblíková, K. (2014). How context matters? Mobilization, political opportunity structures, and nonelectoral political participation in old and new democracies. Comparative Political Studies, 47(2), 203-229.
+* Vráblíková, K. (2014). How context matters? Mobilization, political opportunity structures, and nonelectoral political participation in old and new democracies. Comparative Political Studies, 47(2), 203-229.
 
 **思考与讨论：**
 
