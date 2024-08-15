@@ -8,7 +8,7 @@
 <article class="content">
 	<h1>About</h1>
      <hr />
-	 <p class="my-8">
+	 <p class="my-8 leading-relaxed">
 
 		Hi there! I'm just a middle-aged guy who still believes he's got a few good years left in him. By day, I'm an educator, the kind that never really stopped being a student. I’ve spent a lifetime reading social sciences, which has given me just enough knowledge to be dangerous at dinner parties. When I'm not trying to figure out how the world works, you can find me pedaling around on my bike, pretending I'm training for the Tour de France (spoiler: I’m not). 
 		
