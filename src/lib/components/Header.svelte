@@ -26,27 +26,8 @@
 	<!--<div class="bg-teal-900 rounded-full h-min px-3.5 py-0.5">
 		<span class=" text-teal-50 text-2xl md:text-3xl font-bold">YZC</span>
 	</div>-->
-	<!--	<img src="/images/yzc-teal.svg" alt="yzc" class="m-o p-0 w-8 h-8 md:w-12 md:h-12">-->
-	<svg
-		class="m-o p-0 w-10 h-10 md:w-12 md:h-12"
-		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 200 200"
-	>
-		<rect width="100%" height="100%" fill="none" />
-		<text
-			x="50%"
-			y="50%"
-			font-family="Ubuntu, Helvetica, sans-serif"
-			font-size="100"
-			font-weight="bold"
-			fill="teal"
-			text-anchor="middle"
-			alignment-baseline="middle"
-			class="m-0 p-0"
-		>
-			ZGL
-		</text>
-	</svg>
+		<img src="/images/yzc-teal.svg" alt="yzc" class="m-o p-0 w-8 h-8 md:w-12 md:h-12">
+	
 
 	<ul
 		class:hidden={!open}
