@@ -38,7 +38,7 @@
   <div class="">
     <h1>Posts</h1>
     <hr />
-    <div class="mb-8">
+    <div class="my-8 w-full md:w-1/3 mx-auto">
       <input
         type="text"
         bind:value={searchInput}
