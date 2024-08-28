@@ -1,31 +1,31 @@
 <script>
     import { name } from '$lib/info.js'
-  
+
     /** @type {import('./$types').PageData} */
     export let data
-  
+
     let searchInput = ''
-  
+
     /**
 	 * @type {any[]}
 	 */
     let filteredPosts = []
-  
+
     $: {
       filteredPosts = data.posts.filter(post =>
-        post.title.toLowerCase().includes(searchInput.toLowerCase()) 
+        post.title.toLowerCase().includes(searchInput.toLowerCase())
       )
     }
-  
+
     $: isFirstPage = data.page === 1
-  
+
     $: hasNextPage = data.posts.length === data.limit
   </script>
-  
+
   <svelte:head>
     <title>{name} | Blog</title>
   </svelte:head>
-  
+
   <div class="">
     <h1>Posts</h1>
     <hr />
@@ -52,7 +52,7 @@
           {/if}
       {/each}
     </main>
-  
+
     <!-- pagination -->
     <div class="flex visible items-center justify-between pt-8 opacity-70">
       {#if !isFirstPage}
@@ -62,7 +62,7 @@
       {:else}
         <div />
       {/if}
-  
+
       {#if hasNextPage}
         <a href={`/blog/page/${data.page + 1}`}>Next</a>
       {/if}
