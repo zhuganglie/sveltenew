@@ -23,7 +23,7 @@ export async function load({ params }) {
   const postsForPage = paginate(posts, { limit, page })
 
   // if page doesn't exist, direct to page 1
-  if (postsForPage.length == 0 && page > 1) {
+  if (postsForPage.length === 0) {
     throw redirect(302, '/blog')
   }
 

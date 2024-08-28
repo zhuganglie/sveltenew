@@ -1,10 +1,8 @@
 <script>
     import { name } from '$lib/info.js'
-    //import { onMount } from 'svelte'
   
     /** @type {import('./$types').PageData} */
     export let data
-    console.log(data)
   
     let searchInput = ''
   
@@ -19,16 +17,9 @@
       )
     }
   
-    let isFirstPage = false
-    let hasNextPage = false
-
-    isFirstPage = data.page === 1
-      hasNextPage = !!data.posts[data.posts.length - 1]?.previous
+    $: isFirstPage = data.page === 1
   
-    /*onMount(() => {
-      isFirstPage = data.page === 1
-      hasNextPage = !!data.posts[data.posts.length - 1]?.previous
-    })*/
+    $: hasNextPage = data.posts.length === data.limit
   </script>
   
   <svelte:head>
