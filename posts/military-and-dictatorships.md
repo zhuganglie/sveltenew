@@ -55,7 +55,6 @@ draft: false
 
 理解这些动态至关重要，因为这有助于深入理解独裁政权的稳定性和民主化的潜力。随着全球政治格局的不断演变，军事力量在独裁政权中的角色将继续是决定民众异议结果的关键因素。
 
-
 ## Data Sources and Bibliography
 
 1. **Cruz, C., Keefer, P., & Scartascini, C.** (2020). *Database of Political Institutions 2020*. Inter-American Development Bank.  
