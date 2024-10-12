@@ -21,7 +21,9 @@ However, under Xi Jinping, China appears to be experiencing a shift back towards
 
 **Theoretical Framework:**
 
-This paper utilizes a neo-institutionalist framework to understand the dynamics of power within the CCP.  Specifically, we draw on the concept of "path dependency" (Pierson, 2004) to argue that while Deng's reforms established a path towards collective leadership, pre-existing institutional legacies and informal norms within the CCP, combined with specific contextual factors, created opportunities for the re-emergence of personalized rule.  We argue that Xi Jinping has skillfully leveraged these factors to consolidate his power and personalize his rule.
+This paper utilizes a neo-institutionalist framework to understand the dynamics of power within the CCP.  Specifically, we draw on the concept of "path dependency" (Pierson, 2004) to argue that while Deng's reforms established a path towards collective leadership, pre-existing institutional legacies and informal norms within the CCP, combined with specific contextual factors, created opportunities for the re-emergence of personalized rule. Path dependency suggests that past decisions and institutional arrangements create inertia, making it difficult to deviate from established trajectories even when those trajectories may no longer be optimal. This inertia can arise from two main sources: increasing returns and vested interests.  Increasing returns occur when the benefits of sticking with an existing system increase over time, making it increasingly costly to switch to a new system. Vested interests refer to actors who benefit from the status quo and thus have an incentive to resist change.
+
+In the case of China, the institutional legacies of the CCP, such as the concentration of power in the General Secretary position, created a potential pathway back to personalized rule even after Deng's reforms.  This concentration of power, established during the Mao era, created a system of increasing returns, where the benefits of controlling the General Secretary position became increasingly valuable over time.  Furthermore, it fostered vested interests within the party, namely those officials who benefited from the centralized power structure and had an incentive to maintain it.  Xi Jinping has skillfully leveraged these factors – the increasing returns associated with the General Secretary position and the support of vested interests within the party – to consolidate his power and personalize his rule.  For example, the anti-corruption campaign, while presented as a necessary measure to combat corruption, can also be interpreted as a way to eliminate political rivals and consolidate power within Xi's faction, reinforcing the existing power structure and further entrenching the path towards personalized rule.
 
 **Hypothesis:**
 
@@ -53,5 +55,4 @@ The resurgence of personalized rule in China under Xi Jinping is not simply a de
 * Pei, M. (2016). _China’s trapped transition: The limits of developmental autocracy_. Harvard University Press.
 * Pierson, P. (2004). _Politics in time: History, institutions, and social analysis_. Princeton University Press.
 * Shambaugh, D. (2008). _China’s communist party: Atrophy and adaptation_. University of California Press.
-
 
