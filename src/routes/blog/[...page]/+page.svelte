@@ -13,7 +13,7 @@
 
     $: {
       filteredPosts = data.posts.filter(post =>
-        post.title.toLowerCase().includes(searchInput.toLowerCase())
+        post.title.toLowerCase().includes(searchInput.toLowerCase()) || post.content.toLowerCase().includes(searchInput.toLowerCase())
       )
     }
 

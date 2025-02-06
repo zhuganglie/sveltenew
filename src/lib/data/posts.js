@@ -35,7 +35,10 @@ export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: 
         : undefined,
 
       // get estimated reading time for the post
-      readingTime: readingTime(html.structuredText).text
+      readingTime: readingTime(html.structuredText).text,
+
+      // Extract text content from HTML
+      content: html.structuredText
     }
   })
 
